@@ -1,5 +1,6 @@
 package theory.browserhistory;
 
+// https://leetcode.com/problems/design-browser-history/
 public class BrowserHistoryMain {
 
     public static void main(String[] args) {
