@@ -19,7 +19,7 @@ public class NumOfIslands {
         // O(n**2)
         for (int i = 0; i < xLength; i++) {
             for (int j = 0; j < yLength; j++) {
-                if (visit.contains(new Node(i,j))) {
+                if (!visit.contains(new Node(i,j))) {
                     bfs(i, j);
                     count++;
                 }
