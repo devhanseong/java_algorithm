@@ -19,9 +19,10 @@ public class BOJ_1182 {
 
             List<List<Integer>> result = new ArrayList<>();
             Deque<Integer> stack = new ArrayDeque<>();
-
+            int startIndex = 0;
+            // O(n)
             for (int i = 1; i <= len; i++) {
-                backtrack(result, stack, nums, target, i, 0);
+                backtrack(result, stack, nums, target, i, startIndex); // O(n!)
             }
 
             bw.write(result.size() + "\n");
