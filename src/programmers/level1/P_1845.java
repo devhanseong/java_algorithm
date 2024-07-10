@@ -1,8 +1,8 @@
-package programmers;
+package programmers.level1;
 
 import java.util.*;
 
-// O(n)
+// O(n) 해시테이블
 public class P_1845 {
     public int solution(int[] nums) {
         Set<Integer> set = new HashSet<>();
